@@ -11,7 +11,29 @@
 ббббббббббббббб     кккк     кккк      мммм         мммм                                                                
 ббббббббббббб       кккк      кккк     мммм         мммм                                                            
  -->
+  <script> 
+ document.oncontextmenu = function() { 
+ return false; 
+ }; 
+ document.onkeydown = function(e) { 
+ if (e.keyCode == 123) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { 
+ return false; 
+ } 
 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { 
+ return false; 
+ } 
+ } 
+</script>
  
 <!doctype html>
 <html class="no-js" lang="en">
@@ -47,9 +69,7 @@
  
 <meta content="Éco Entreprises Québec" property="og:site_name">
 <meta content="website" property="og:type">
-<meta content="https://bac.eeq.ca/en/recycling-better" property="og:url">
-<link href="https://bac.eeq.ca/en/recycling-better" rel="canonical">
-<link href="https://bac.eeq.ca/en" rel="home">
+ 
  
  
 </head>
@@ -704,7 +724,7 @@ top: 5%;
         <div class="c-text_title">
              
  <h2 class="o-title -medium">Мы знаем, как уберечь вас от всех этих проблем</h2>
-<span style="font-size: 20px;"> Почему ваш сайт окупится сразу же? </span><br>
+<span style="font-size: 20px;"> Почему ваш сайт окупится сразу же? </span><br><br>
 <span style="font-size: 30px;"> Мы делаем его продающим</span>
  
         </div>
