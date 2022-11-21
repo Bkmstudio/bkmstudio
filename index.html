@@ -1,5 +1,27 @@
   
+  <script> 
+ document.oncontextmenu = function() { 
+ return false; 
+ }; 
+ document.onkeydown = function(e) { 
+ if (e.keyCode == 123) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { 
+ return false; 
+ } 
+ if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { 
+ return false; 
+ } 
 
+ if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { 
+ return false; 
+ } 
+ } 
+</script>
 
 <!DOCTYPE html>
 <html lang="ru-RU">
@@ -30,7 +52,25 @@
 <meta name="google-site-verification" content="0ATnLOD2rQWJXgoE_irHjY6pVCouMIufuaHx57xprUM" /> 
 </head>
 
-
+ 
+ 
+    <body>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
@@ -38,12 +78,12 @@
  .border-style-outset126{
  border: 2px solid transparent;
   /* Толщина, стильи цвет рамки */
- padding:0px; /* Отсступ от рамки */
+ padding:-5px; /* Отсступ от рамки */
    
  border-radius: 0px;
  
   background: #454545;
-  height:30px;
+ 
   width:100%;
   border: 1px solid red;
 
@@ -51,14 +91,14 @@
 .border-style-outset126{
 border-color: transparent;
  max-width: 100%;
- height: 30px;
+ height: 25px;
 width: auto;
  object-fit: cover;
 }
 </style>
  
  
- <body>
+ 
  
  
   
@@ -74,8 +114,8 @@ width: auto;
 <div class="hidemobile">
    <div class="border-style-outset126"> 
  <div style="text-align: center;"> 
-<span style="font-size: 13px;"><font color="#ffffff">  Портал создан на грант Президента Российской Федерации для поддержки творческих
-проектов общественного значения в области культуры и искуства</font></span>
+<span style="font-size: 13px;"><font color="#ffffff"><span style="font-family:Arial,Helvetica,sans-serif;">→ Портал создан на грант Президента Российской Федерации для поддержки творческих
+проектов общественного значения в области культуры и искуства</font></span></span>
  </div> </div>
  
 <style> 
@@ -89,46 +129,34 @@ width: auto;
  
  
  
-  
  
  
  
  
  
-
- <style>
-#line_block009 { 
- width: 100%; 
- height:50px; 
- background:transparent;
- float:left; 
- margin:  0 0px 0px 0; 
  
- padding: 5px;
- z-index: -1; 
- }
-</style>
-
-
+ 
 
  
 
 
   <style type="text/css">
  .border-style-outset122{
- border: 2px solid transparent;
+ border: 1px solid transparent;
   /* Толщина, стильи цвет рамки */
- padding:0px; /* Отсступ от рамки */
+ padding:-5px; /* Отсступ от рамки */
   background: #2d2d2d;
  border-radius: 1px;
 }
 .border-style-outset122{
-border-color: transparent;
+border-color:  #2d2d2d;
  max-width: 100%;
- height: 27px;
+ height: 22px;
 width: auto;
  object-fit: cover;
+ 
 }
+ 
 </style>
  
    <header>
@@ -143,7 +171,7 @@ width: auto;
      
 }
 .social-icons-5 a {
-    text-decoration: none;
+   
     color: #fff;
     width: 30px;
     height: 30px;
@@ -151,105 +179,99 @@ width: auto;
     align-items: center;
     justify-content: center;
     border-radius: 0px;
-    margin: 0 6px;
-    font-size: 26px;
+    
+    
     background: transparent;
-  top: -20px;
-}
  
+   
+}
+    
 </style>
 
+<style>
+ .text1 {
+  margin-right: 0px;
+  padding-right: 0px;
+}
 
+.text2 {position: relative; bottom: 18px; 
+  padding-left: -20px;
+  margin-right: 10px;
+}</style>
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  </div> 
+
+
+ 
+ 
+  
+  
  
 
   <div class="border-style-outset122">  
 
-<table width="200" align="left" border="0" height="20"  cellpadding="0" cellspacing="0"   >
-  
+
  
   
   <ul class="social-icons-5">
-<li><span style="font-size: 16px;"><font color="#ffffff">   Мы в соц.сетях: &nbsp;&nbsp; </font></span></li>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1vk.png"style=" width: 29px; height: 20px;" class="scale" />       </a></li>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1ut.png"style=" width: 27px; height: 26px;" class="scale" />        </a></li>
+<li> <span style="font-size: 14px;"><font color="#ffffff"><span style="font-family:Arial,Helvetica,sans-serif;">   Мы в соц.сетях: &nbsp;&nbsp;</span>
+ </font></span> </li>
+    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/flagshapka1.png"style=" width: 100px; height: 45px;"   />       </a></li>
+ 
  
 </ul>
  
   
    <ul class="social-icons-5">
-<li><span style="font-size: 16px;"><font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Выберите язык: &nbsp;&nbsp; </font></span></li>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1ru.png"style=" width: 27px; height: 27px;" class="scale" />       </a></li>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1th.png"style=" width: 26px; height: 27px;" class="scale" />        </a>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+<li> <span style="font-size: 14px;"><font color="#ffffff"><span style="font-family:Arial,Helvetica,sans-serif;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Выберите язык: &nbsp; </font></span> </li>
+ 
+    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/flagshapka2.png"style=" width:90px; height: 40px;"   />        </a>
+  &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></li>
  
 </ul> 
   
  
 <ul class="social-icons-5">
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1rash.png"style=" width: 30px; height: 30px;" class="scale" />        </a></li>
-    <li><span style="font-size: 16px;"><font color="#ffffff">  Расширенный поиск &nbsp;&nbsp; </font></span></li>
+    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/lupashapka.png"style=" width: 40px; height: 40px;"  />        </a></li>
+    <li><span style="font-size: 14px;"><font color="#ffffff"><span style="font-family:Arial,Helvetica,sans-serif;">  Расширенный поиск</span></font></span></li>
 </ul>
  
   
-<ul class="social-icons-5">   
  
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1glas.png"style=" width: 30px; height: 25px;" class="scale" />        </a></li>
-    <li><span style="font-size: 16px;"><font color="#ffffff">   Для слабовидящих &nbsp;&nbsp; </font></span></li>
-</ul>  
  
-     
+    
+ <style>figure{border:0;float:left;height:40px;margin-right:0.0em;width:50px;position: relative;
+  top:-21px;}</style>
+     <figure><a href=" ">
+	 <img class="scale " src="https://bkmstudio.github.io/chuvashia/img/lupashapka2.png" style=" width: 24px; height: 30px;" /> </figure></a> 
+     <div style="text-align: left;"> <span style="font-family:Arial,Helvetica,sans-serif;"> </font>
+	  <span style="font-size: 14px;"><font color="#ffffff"><span style="font-family:Arial,Helvetica,sans-serif;">Для слабовидящих </span></span></span></font></div>
+ 
 </table>
  
   </div> 
-  </div> 
-
-
-
-
-
- 
-
-
-
-
-
- 
   
+    
   
-  <div class="hidemobile"> <div class="border-style-outset122">  <div id="line_block001"><p style="text-align: right;">   <a href=" "target="_blank">  </a></p> </div> </div> </div>
   
   
   
  
-  
-  
- 
-  
-  
- 
-  
-  
-  
-    <div style="width:100%; height:1px; clear:both;"></div>
- 
-  <div class="wrapper">
- 
- <div class="showmobile"> 
-<div class="left_block">
-  <div id="line_block76">
- <p><img src="https://bkmstudio.github.io/chuvashia/img/logo.png" width="60" height="60" align="middle" />&nbsp;
- <span style="font-size: 16px;"> Наследие Чувашии</span></p>
- </div>
- </div>  
+   
  
  
  
-  
-  
-  
-  
-   </div></div> 
-  
+ 
   
   
   
@@ -283,6 +305,112 @@ height:100px;
   
   
  
+  <style type="text/css">
+ .border-style-outset556{
+ border: 1px solid transparent;
+  /* Толщина, стильи цвет рамки */
+ padding:0px; /* Отсступ от рамки */
+  background: #2d2d2d;
+ border-radius: 0px;
+}
+.border-style-outset556{
+border-color:  #2d2d2d;
+ max-width: 100%;
+ height: 23px;
+width: auto;
+ object-fit: cover;
+ 
+}
+ 
+</style>
+ 
+ 
+
+  <div class="border-style-outset556"> 
+
+ <div class="hidemobile">
+  <div id="line_block101">
+ <p style="text-align: left;"> 
+ 
+  <a href=" "target="_blank">
+ <img src="https://bkmstudio.github.io/chuvashia/img/zvezda1.png"style=" width: 360px; height: 70px;"  />
+ </a>
+ </p>  
+ </div>
+ 
+ 
+
+ <div id="line_block1099">
+<p style="text-align: center;"> 
+ <b style=""><span style="font-size:12px;"><font color="#000000">
+  <div class="hidemobile"><form action="" method="post" class="search"><input type="search" name="" placeholder="Поиск по сайту" class="input" /><input type="submit" name="" value="" class="submit" />  
+</form>
+ </div></a>
+ </font></span></b></p> </div>
+ 
+
+
+
+<div id="line_block108">
+<p style="text-align: right;"> 
+  <a href=" "target="_blank"> 
+  <img src="https://bkmstudio.github.io/chuvashia/img/vhodd1.png"style=" width: 166px; height: 26px;"  />  </a> 
+ </p>
+
+ </div>
+ </div> </div>
+
+
+
+
+
+
+
+
+  <div style="width:100%; height:1px; clear:both;"></div>
+
+
+  <style>
+#line_block108 { 
+ width: 33%; 
+ height:80px; 
+ background:transparent;
+ float:left; 
+ margin:  -20 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style>
+
+
+ 
+ <style>
+#line_block101 { 
+ width: 33%; 
+ height:80px; 
+ background:transparent;
+ float:left; 
+ margin:  -35 0px 10px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style>
+  <style>
+#line_block1099 { 
+ width: 33%; 
+ height:80px; 
+ background:transparent;
+ float:left; 
+ margin: -20 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style>
+ 
+  
   
  
   
@@ -293,11 +421,12 @@ height:100px;
   .search {
 	/* устанавливаем необходимую ширину формы в зависимости от дизайна
 	** форма без проблем растягивается */
-	width: 140%;
+	width: 160%;  
 
 	/* кнопку отправки будем позиционировать абсолютно,
 	** поэтому необходимо это свойство */
 	position: relative;
+	 
 }
 
 .search input {
@@ -306,7 +435,7 @@ height:100px;
 }
 
 /* стили для поля ввода */
-.search .input {
+.search .input {top: -8px;
 	/* растягиваем поле ввода на всю ширину формы */
 	width: 90%;
 
@@ -315,13 +444,13 @@ height:100px;
 	** внутренний отступ справа (37px) делаем больше левого,
 	** т.к. там будет размещена кнопка отправки	*/
 	padding: 8px 37px 9px 15px;
-
+ 
 	/* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
 	/* добавляем внутренние тени */
-	box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+	box-shadow:  
 
 	/* закругляем углы */
 	border-radius: 5px;
@@ -334,8 +463,8 @@ height:100px;
 
 /* меняем оформление поля ввода при фокусе */
 .search .input:focus {
-	box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
-	background: #E8E8E8;
+	box-shadow: 
+	background: #ffffff;
 	color: #333;
 }
 
@@ -379,8 +508,8 @@ input[type="search"] {
 	padding: 0 52px 0 0;
 }
 .search .input {
-	border: 1px solid #DFDFDF;
-	border-top: 1px solid #B3B3B3;
+	border: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
 	padding-top: 7px;
 	padding-bottom: 8px;
 }
@@ -396,89 +525,17 @@ input[type="search"] {
 }
 </style> 
   
-  
- <script> 
-  
+ 
+
+ 
+
+
+
+
+
+ 
  
   
-</script>  
-  
-  
-  
-
- 
-
-
-
-
-
- 
- <div style="width:100%; height:8px; clear:both;"></div>
-
- <style>
-#line_block101 { 
- width: 33%; 
- height:80px; 
- background:transparent;
- float:left; 
- margin:  0 0px 0px 0; 
- 
- padding: 5px;
- z-index: -1; 
- }
-</style>
-  <style>
-#line_block1099 { 
- width: 33%; 
- height:80px; 
- background:transparent;
- float:left; 
- margin:  0 0px 0px 0; 
- 
- padding: 5px;
- z-index: -1; 
- }
-</style>
- 
-
-
- <div class="hidemobile">
-  <div id="line_block101">
- <p style="text-align: left;"> 
- <b style=""><span style="font-size:12px;"><font color="#000000">
-  <a href=" "target="_blank">
- <img src="https://bkmstudio.github.io/chuvashia/img/zvezda1.png"style=" width: 376px; height: 75px;"  />
- </a>
- </font></span></b> <p>&nbsp;</p></p>  
- </div>
-
- 
-
- <div id="line_block1099">
-<p style="text-align: center;"> 
- <b style=""><span style="font-size:12px;"><font color="#000000">
-  <div class="hidemobile"><form action="" method="post" class="search"><input type="search" name="" placeholder="поиск по сайту" class="input" /><input type="submit" name="" value="" class="submit" />  
-</form>
- </div></a>
- </font></span></b></p> </div>
- 
-
-
-
-<div id="line_block101">
-<p style="text-align: right;"> 
-  <a href=" "target="_blank"> 
-  <img src="https://bkmstudio.github.io/chuvashia/img/vhodd1.png"style=" width: 169px; height: 28px;" class="scale"/>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</a> 
- </p>
-
- </div>
- </div>
-
- <div style="width:100%; height:8px; clear:both;"></div>
-
-
- 
  
  
  
@@ -498,15 +555,15 @@ input[type="search"] {
  
  
   <div style="text-align: center;"> 
-<li><a href="#">Чувашская Рес.</a></li>
-<li><a href="#">История</a></li>
-<li><a href="#">Традиции</a></li>
-<li><a href="#">Чувашский язык</a></li>
-<li><a href="#">Фольклор и литература</a></li>
-<li><a href="#">Достопремичательности</a></li>
-<li><a href="#">Исскуство</a></li>
-<li><a href="#">Люди</a></li>
-<li><a href="#">Контакты</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/1">Чувашская Республика</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/2">История</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/3">Традиции</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/4">Чувашский язык</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/5">Фольклор и литература</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/6">Достопремичательности</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/7">Исскуство</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/8">Люди</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/9">Контакты</a></li>
 
 
 </nav>
@@ -531,7 +588,7 @@ a {
   text-decoration: none; /*убираем подчеркивание текста ссылок*/
   background:transparent; /*добавляем фон к пункту меню*/
   color:#fff; /*меняем цвет ссылок*/
-  padding:0px 15px; /*добавляем отступ*/
+  padding:0px 14px; /*добавляем отступ*/
   font-family: arial; /*меняем шрифт*/
   line-height:50px; /*ровняем меню по вертикали*/
   display: block; 
@@ -1035,8 +1092,8 @@ h1{
   <section>  
   
   <div class="border-style-outset121">  
-   <p style="text-align: center;"> 
- <b style=""><span style="font-size:30px;"><font color="#000000"><strong>Кому будет интересно</strong></font></span></b></p>
+   <p style="text-align: center;"> <span style="font-family:Arial,Helvetica,sans-serif;">
+ <b style=""><span style="font-size:30px;"><font color="#000000"><strong>Кому будет интересно</strong></font></span></b></p></span>
   
   
  <div class="textcols"> 
@@ -1109,32 +1166,32 @@ width: auto;
    
  <!-- --------------------------------------- 4 Ярлыка меняющихся при наведении ---------------------------------------- --> 
   <div class="border-style-outset121"> 
- <p style="text-align: center;"> 
- <b style=""><span style="font-size:30px;"><font color="#000000"><strong>Новости</strong></font></span></b></p>
+ <p style="text-align: center;"> <span style="font-family:Arial,Helvetica,sans-serif;">
+ <b style=""><span style="font-size:30px;"><font color="#000000"><strong>Новости</strong></font></span></b></p></span>
   
  
  
   <div class="managemas">
    <div class="aletackmes">
    <a href=" "target="_blank"><img src="https://bkmstudio.github.io/chuvashia/img/1111.png"  /></a>
-   <div class="akusoluson">
-   <p>Прогулки по летнему саду c Презедентской библеотекой </p>
+   <div class="akusoluson"><span style="font-family:Arial,Helvetica,sans-serif;">
+   <p><strong>Прогулки по летнему саду<br> c Презедентской библеотекой </strong></p></span>
   </div>
   </div> 
    
    <div class="aletackmes">
    <a href=" "target="_blank"><img src="https://bkmstudio.github.io/chuvashia/img/2222.png"  /></a>
-   <div class="akusoluson">
-   <p> Сегодня в музее космонавтики будет презентован проект PRO интерактивный космос</p>
+   <div class="akusoluson"><span style="font-family:Arial,Helvetica,sans-serif;">
+   <p> <strong>Сегодня в музее космонавтики<br> будет презентован проект<br> PRO интерактивный космос</strong></p></span>
   </div>
   </div> 
    
    
    <div class="aletackmes">
    <a href=" "target="_blank"><img src="https://bkmstudio.github.io/chuvashia/img/3333.png"  /></a>
-   <div class="akusoluson">
-   <p> В детско-юношеской  библиотеке состоялись  мероприятия,
-     посвященные 60-летию  полета в космос  Андриана Николаева </p>
+   <div class="akusoluson"><span style="font-family:Arial,Helvetica,sans-serif;">
+   <p> <strong>В детско-юношеской  библиотеке<br> состоялись  мероприятия,<br>
+     посвященные 60-летию  полета<br> в космос  Андриана Николаева </strong></p></span>
   </div>
   </div> 
    
@@ -1151,10 +1208,12 @@ width: auto;
 }
 .managemas {
   display: flex;
+   margin: 3px -10px 4px -16px;
+  
 }
 .managemas .aletackmes {
   flex: 1;
-  margin: 10px;
+  margin: 1px;
   text-align: center;
   box-shadow: 0px 2px 5px transparent;
   border-radius: 20px;
@@ -1164,13 +1223,13 @@ width: auto;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bold;
-  padding: 15px;
-  padding-bottom: 60px;
+  padding: 0px;
+  padding-bottom: 0px;
   color: #ffffff;
 }
  
 .managemas .aletackmes .akusoluson {
-  padding: 15px;
+  padding: 0px;
   padding-top: 45px;
   margin-top: -45px;
   background-color: #ffffff;
@@ -1323,84 +1382,98 @@ width: auto;
  
 
 
- <div class="border-style-outset121"> 
+ 
+
+
+
+
+
+
+
+
 
  
- <div style="width:100%; height:8px; clear:both;"></div>
 
- <style>
-#line_block201 { 
- width: 50%; 
- height:86px; 
- background:transparent;
- float:right; 
- margin:  0 0px 0px 0; 
+
+
+
+
  
- padding: 25px;
- z-index: -1; 
- }
-</style>
- <style>
-#line_block201 { 
- width: 50%; 
- height:86px; 
- background:transparent;
- float:right; 
- margin:  0 10px 0px 0; 
+
+
+
+
+
+
  
- padding: 5px;
- z-index: -1; 
- }
-</style>
+
+
+
+
+
+
+ 
 
 
  <div class="hidemobile">
-  <div id="line_block201">
- <p style="text-align: right;"> 
-  <span style="font-size:12px;"><font color="#000000">
-  <a href=" "target="_blank">
- <img src="https://bkmstudio.github.io/chuvashia/img/email.png"style=" width: 700px; height: 80px;"  /></a>
- </font></span> </p>
- </div>
+ 
+ 
+ 
+  
+ 
+ 
+   <style type="text/css">
+ .border-style-outset189{
+ border: 2px solid transparent;
+  /* Толщина, стильи цвет рамки */
+ padding:10px; /* Отсступ от рамки */
+   
+ border-radius: 0px;
+ 
+  background: #57ffff
+ position:relative;
+    top: 0px;
+    left: -20px;
+    z-index: 100;
 
+}
+.border-style-outset189{
+border-color: #57ffff
+ max-width: 1300px;
  
-
-  <div class="hidemobile">
-<table width="0" align="right" border="0" cellpadding="0" cellspacing="5">
-    <tr>
- 
-<td style="font-family: Arial, sans-serif; font-size: 130px; font-weight: bold;">
-            <a href=" " style="color: #ffffff;">
-           <img src="https://bkmstudio.github.io/chuvashia/img/thitaitivset.png"style=" width: 256px; height: 24px;"  />
-            </a>
-			</td>
-		<td style="font-family: Arial, sans-serif; font-size: 130px; font-weight: bold;">
-            <a href=" " style="color: #ffffff;">
-           <img src="https://bkmstudio.github.io/chuvashia/img/1vk.png"style=" width: 40px; height: 28px;" class="scale" />
-            </a>
-			</td>
-		<td style="font-family: Arial, sans-serif; font-size: 130px; font-weight: bold;">
-            <a href=" " style="color: #ffffff;">
-           <img src="https://bkmstudio.github.io/chuvashia/img/1ut.png"style=" width: 40px; height: 28px;" class="scale" />&nbsp; 
-            </a>
-			</td>  		 	
+width: 1300px;
+ object-fit: cover;
+}
  
  
-    </tr>
-</table>
-  </div>
- </div>
+}
+</style>
+  <div class="border-style-outset189"> 
  
- <div style="width:100%; height:8px; clear:both;"></div>
-
+ <table style="border-collapse: collapse; margin: 3px 2px 4px 1px; background-color: transparent; border: none;" width="" align="" cellspacing="10" cellpadding="10">
  
-</section>
+ <tbody>
+ <tr>
+ <td style="border: none;">
  
-
-<section>
-
-<p>&nbsp;</p>  
-
+ <div style="text-align: left;">  <a href=" " style="color: #ffffff;">
+ <img src="https://bkmstudio.github.io/chuvashia/img/email.png"style=" width: 782px; height: 85px;"  /> </a> </div>
+ </td>
+	
+ <td style="border: none;">  <ul class="social-icons-5">
+<li><span style="font-size: 14px;"><font color="#000000">
+<span style="font-family:Arial,Helvetica,sans-serif;">
+<strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Читайте&nbsp;нас&nbsp;в&nbsp;социальных сетях&nbsp;&nbsp;&nbsp;
+</strong></span> </font></span></li>
+    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/flagshapka1.png"style=" width: 100px; height: 45px;" class="scale" />       </a></li>
+ 
+ 
+</ul></td>
+ </tr></tbody></table> 
+ 
+ 
+ 
+ 
  
  
   <style>
@@ -1412,20 +1485,48 @@ width: auto;
    }
   </style>
  
+ <div class="hidemobile">
  
  
- <div class="textcols">
- <div class="textcols-item"> <a href=" "target="_blank">&nbsp;&nbsp;  
- <img src="https://bkmstudio.github.io/chuvashia/img/0111111.png"style=" width: 365px; height: 180px;"class="scale" /></a>   
-  </div> 
- <div class="textcols-item"><a href=" "target="_blank">
- <img src="https://bkmstudio.github.io/chuvashia/img/0222222.png"style=" width: 365px; height: 180px;"class="scale" /></a>   
- </div> 
- <div class="textcols-item"><a href=" "target="_blank">
- <img src="https://bkmstudio.github.io/chuvashia/img/0333333.png"style=" width: 365px; height: 180px;"class="scale" /></a>   
- </div> 
- </div>
+ 
+ <table style="border-collapse: collapse; width: 200px; height: 30px; margin: 3px 2px 4px 1px; border: none; background-color: transparent;
+ " width="" align="center" cellspacing="10" cellpadding="10">
+ 
+ 
+ <tbody>
+ <tr>
+ <td style="border: none;"><a href=" "target="_blank">  
+ <img src="https://bkmstudio.github.io/chuvashia/img/0111111.png"style=" width: 365px; height: 170px;"class="scale" /></a> </td>
+ <td style="border: none;"><a href=" "target="_blank">
+ <img src="https://bkmstudio.github.io/chuvashia/img/0222222.png"style=" width: 365px; height: 170px;"class="scale" /></a> </td>
+ <td style="border: none;"><a href=" "target="_blank">
+ <img src="https://bkmstudio.github.io/chuvashia/img/0333333.png"style=" width: 365px; height: 170px;"class="scale" /></a></td>
+ </tr>
+ </tbody>
+ 
+ 
+ </table>
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
   </div>
+ </div>
+ 
+  </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
@@ -1449,7 +1550,7 @@ width: auto;
  flex: 1;
  height: 30%;
     
-    width: 340px;
+    width: 330px;
 }
 .textcols-item + .textcols-item {
  margin-left: 1%;
@@ -1548,33 +1649,29 @@ button:before {
 
 <footer>
 
-
-
-
-
+<div class="border-style-outset129"> 
   <div class="hidemobile">
  <nav>
  
  
   <div style="text-align: center;"> 
-<li><a href="#">Чувашская Республика</a></li>
-<li><a href="#">История</a></li>
-<li><a href="#">Традиции</a></li>
-<li><a href="#">Чувашский язык</a></li>
-<li><a href="#">Фольклор и литература</a></li>
-<li><a href="#">Достопремичательности</a></li>
-<li><a href="#">Исскуство</a></li>
-<li><a href="#">Люди</a></li>
-<li><a href="#">Контакты</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/1">Чувашская Республика</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/2">История</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/3">Традиции</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/4">Чувашский язык</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/5">Фольклор и литература</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/6">Достопремичательности</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/7">Исскуство</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/8">Люди</a></li>
+<li><a href="https://bkmstudio.github.io/chuvashia/9">Контакты</a></li>
 
 
 </nav>
  </div>
   </div>
-
-
+  </div>
  
- <div style="width:100%; height:8px; clear:both;"></div>
+ 
 
  <style>
 #line_block201 { 
@@ -1620,52 +1717,98 @@ button:before {
 проектов общественного значения в области культуры и искуства
  </font></span></b></p></span>
 
- </div> </div>
+ </div>
+ </div>
 
  <div style="width:100%; height:8px; clear:both;"></div>
-
  
-<div class="hidemobile">
- <div id="line_block203">
- <p style="text-align: centr;"> <span style="font-family:Arial,Helvetica,sans-serif;">
- <b style=""><span style="font-size:12px;"><font color="#000000">&nbsp;&nbsp;&nbsp;&#169;2009-2022 Национальная библиотека чувашскои республики 
-  <p style="text-align: right;"> 
- <b style=""><span style="font-size:12px;"><font color="#000000">&nbsp;&nbsp;Сайт использует файлы Cookies и другие сервесы сбора технических данных 
- его Поситителей</font><font color="#96130b">  Читать подробнее... </font></span></b></p></span>
- </font></span></b></p>
- </div>
-
-
-
-<div id="line_block203">
-<p style="text-align: right;"> 
- <b style=""> <font color="#000000"><span style="font-family:Arial,Helvetica,sans-serif;">
- <span style="font-size:12px;">Студия разработки и продвижения&nbsp;&nbsp;&nbsp;&nbsp;</span> </b></p></span>
-
- </div>
-
-  <div style="width:100%; height:8px; clear:both;"></div>
-
- <div id="line_block203">
+ <div class="hidemobile">
  
- </div>
+ 
+ 
+ <div id="line_block303">
+ <style>
+#line_block303 { 
+ width: 50%; 
+ height:21px; 
+ background:transparent;
+ float:left; 
+ margin:  0 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style><p style="text-align: left;"> 
+  <b style=""><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:12px;"><font color="#000000"> &nbsp;&nbsp;&nbsp;&nbsp;
+ &#169;2009-2022 Национальная библиотека чувашскои республики</font></span></span></div></b></p>
+
+ <div id="line_block303">
+ <style>
+#line_block303 { 
+ width: 50%; 
+ height:21px; 
+ background: transparent;
+ float:right; 
+ margin:  0 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style><p style="text-align: right;"> 
+  <b style=""><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:12px;"><font color="#000000"> 
+ Студия разработки и продвижения&nbsp;&nbsp;&nbsp;&nbsp;</font></span></span></div></b></p>
 
 
 
-<div id="line_block203">
-<p style="text-align: right;"> 
+
+
+
+
+
+
+
+ <div id="line_block303">
+ <style>
+#line_block303 { 
+ width: 50%; 
+ height:21px; 
+ background:transparent;
+ float:right; 
+ margin:  0 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style><p style="text-align: left;"> 
+ <b style=""><span style="font-size:12px;"><font color="#000000">&nbsp;&nbsp;&nbsp;&nbsp; Сайт использует файлы Cookies и другие сервесы сбора тех. данных 
+ его Поситителей</font><font color="#96130b">  Читать подробнее... </font></span></b></div></p>
+
+ <div id="line_block303">
+ <style>
+#line_block303 { 
+ width: 50%; 
+ height:21px; 
+ background: transparent;
+ float:left; 
+ margin:  0 0px 0px 0; 
+ 
+ padding: 5px;
+ z-index: -1; 
+ }
+</style><p style="text-align: right;"> 
  <b style=""> <font color="#000000"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:12px;">&nbsp;&nbsp;
  Сайтов</span> <span style="font-size:14px;">
- WEB-CRAZY&nbsp;&nbsp;&nbsp;&nbsp;</font></span></b></p></span>
+ WEB-CRAZY&nbsp;&nbsp;&nbsp;&nbsp;</font></span></b></p>
 
- </div>
 
-</div>
- <div style="width:100%; height:8px; clear:both;"></div>
+
+</div> 
+
+
 
  <style>
 #line_block203 { 
- width: 50%; 
+ width: 60%; 
  height:20px; 
  background:transparent;
  float:left; 
@@ -1693,7 +1836,7 @@ button:before {
 </style>
 
  
-
+ <p>&nbsp;</p>    
 
 
  <div class="hidemobile">
@@ -1703,16 +1846,16 @@ button:before {
   <table width="200" align="left" border="0" height="20"  cellpadding="0" cellspacing="0"   >
  
   <ul class="social-icons-5">
-    <li><span style="font-size: 14px;"><font color="#000000"> <b style="">
-<span style="font-family:Arial,Helvetica,sans-serif;">	Мы в соц.сетях: &nbsp;&nbsp;</span></font></span></li> </b>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1vk.png"style=" width: 29px; height: 18px;" class="scale" />       </a></li>
-    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/1ut.png"style=" width: 27px; height: 24px;" class="scale" />        </a></li>
-  </ul>
+<li> <span style="font-size: 14px;"><font color="#000000"><span style="font-family:Arial,Helvetica,sans-serif;"> <strong>  Мы в соц.сетях: &nbsp;&nbsp;&nbsp;&nbsp;</strong></span>
+ </font></span> </li>
+    <li><a href="#"><img src="https://bkmstudio.github.io/chuvashia/img/flagshapka1.png"style=" width: 100px; height: 45px;"   />       </a></li>
+ 
+ 
+</ul>
  
      
 </table>
  
- <p>&nbsp;</p>  
 
  
 
@@ -1727,9 +1870,9 @@ button:before {
 
 
 
+</div> 
 
-
-
+ 
 
 
 
